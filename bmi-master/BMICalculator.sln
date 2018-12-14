@@ -7,7 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BMICalculator", "BMICalcula
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BMICalculator.Tests", "BMICalculator.Tests\BMICalculator.Tests.csproj", "{B9E40917-4025-4EE3-83A3-A6AFF469C0E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMICalculator.UserAcceptanceTests", "BMICalculator.UserAcceptanceTests\BMICalculator.UserAcceptanceTests.csproj", "{66ECA3B0-F6E1-496F-923D-739EF63238A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BMICalculator.UserAcceptanceTests", "BMICalculator.UserAcceptanceTests\BMICalculator.UserAcceptanceTests.csproj", "{66ECA3B0-F6E1-496F-923D-739EF63238A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMICalculator.PerformanceTests", "BMICalculator.PerformanceTests\BMICalculator.PerformanceTests.csproj", "{200B535C-9B90-4BC5-8908-120C31ACAF98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{58086933-1165-4D40-B685-F5FA64904692}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +34,10 @@ Global
 		{66ECA3B0-F6E1-496F-923D-739EF63238A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66ECA3B0-F6E1-496F-923D-739EF63238A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66ECA3B0-F6E1-496F-923D-739EF63238A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{200B535C-9B90-4BC5-8908-120C31ACAF98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200B535C-9B90-4BC5-8908-120C31ACAF98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200B535C-9B90-4BC5-8908-120C31ACAF98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200B535C-9B90-4BC5-8908-120C31ACAF98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
